@@ -1202,3 +1202,14 @@ width: 100% !important;
   text-align: center;
   
 }
+.passco{
+  position: relative;
+}
+#passwordvisi{
+  color: #2d8c29;
+  font-size: 12px;
+  width: 35px;
+  right: 35px;
+  position: absolute;
+  top: 36px;
+}

@@ -6,12 +6,17 @@ import { Container } from "react-bootstrap"
 import Navbar from "../FirstPage/Navbar"
 
 export default function Login() {
+  const [show, setshow] = useState(false)
   const emailRef = useRef()
   const passwordRef = useRef()
   const { login } = useAuth()
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
   const history = useHistory()
+
+  const handelshow=() =>{
+    setshow(!show)
+  }
 
   async function handleSubmit(e) {
     e.preventDefault()
@@ -46,10 +51,14 @@ export default function Login() {
               <Form.Label>Email</Form.Label>
               <Form.Control type="email" className="inputtt" placeholder='example@example.com' ref={emailRef} required />
             </Form.Group>
+            <div className="passco">
             <Form.Group id="password">
               <Form.Label>Password</Form.Label>
-              <Form.Control type="password" className="inputtt" placeholder='your password' ref={passwordRef} required />
+              <label id="passwordvisi" onClick={handelshow}>{show? 'Hide' : 'show'}</label>
+              <Form.Control type={show? 'text' : 'password'}className="inputtt" placeholder='your password' ref={passwordRef} required />
             </Form.Group>
+            </div>
+            
             <Button disabled={loading} type="submit">
               Log In
             </Button>

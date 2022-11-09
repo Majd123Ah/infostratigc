@@ -5,7 +5,10 @@ import { Link, useHistory } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import Navbar from "../FirstPage/Navbar"
 
+
 export default function Signup() {
+
+  const [show, setshow] = useState(false)
   const emailRef = useRef()
   const passwordRef = useRef()
   const passwordConfirmRef = useRef()
@@ -13,6 +16,10 @@ export default function Signup() {
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
   const history = useHistory()
+
+  const handelshow=() =>{
+    setshow(!show)
+  }
 
   async function handleSubmit(e) {
     e.preventDefault()
@@ -51,14 +58,20 @@ export default function Signup() {
                     <Form.Label>Email</Form.Label>
                     <Form.Control className="inputtt" placeholder='example@example.com' type="email" ref={emailRef} required />
                   </Form.Group>
+                  <div className="passco">
                   <Form.Group id="password">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control className="inputtt" placeholder='use a strong password' type="password" ref={passwordRef} required />
+                    <label id="passwordvisi" onClick={handelshow}>{show? 'Hide' : 'show'}</label>
+                    <Form.Control className="inputtt" placeholder='use a strong password' type={show? 'text' : 'password'} ref={passwordRef} required />
                   </Form.Group>
+                  </div>
+                  <div className="passco">
                   <Form.Group id="password-confirm">
                     <Form.Label>Password Confirmation</Form.Label>
-                    <Form.Control className="inputtt" placeholder='repeat password' type="password" ref={passwordConfirmRef} required />
+                    <label id="passwordvisi" onClick={handelshow}>{show? 'Hide' : 'show'}</label>
+                    <Form.Control className="inputtt" placeholder='repeat password' type={show? 'text' : 'password'} ref={passwordConfirmRef} required />
                   </Form.Group>
+                  </div>
                   <Button disabled={loading}  type="submit">
                     Sign Up
                   </Button>
@@ -79,77 +92,3 @@ export default function Signup() {
 
 
 
-/*import React, { useState } from 'react';
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import app from "../firebase";
-
-const SignUp = () => {
-  const [eror1, seteror1] = useState('')
-
-  const auth = getAuth(app);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [name, setname] = useState("");
-  const Signuphendler = () => {
-
-    createUserWithEmailAndPassword(auth, email, password, name)
-      .then((userCredential) => {
-        // Signed in 
-        const user = userCredential.user;
-        console.log(user);
-        // ...
-      })
-      .catch((error) => {
-        const errorMessage = error.message;
-        alert(errorMessage)
-        // ..
-      });
-  }
-  function validations(value) {
-    if (document.getElementById("pass").value !== document.getElementById("repass").value) {
-      seteror1('password not match');
-    } else {
-      seteror1('')
-      window.visiblebtn.style.visibility = "visible";
-        if (document.getElementById("Name").value !== '' || document.getElementById("Email").value !== ''
-          || document.getElementById("pass").value !== '' || document.getElementById("repass").value !== '') {
-          window.visiblebtn.style.visibility = "visible";
-        } else {
-          window.visiblebtn.style.visibility = "hidden";
-        }
-      
-    }
-  }
-
-
-
-
-  return (
-    <div className='Signupback'>
-
-      <div className='Signupform col-sm-4'>
-        <h2>Create your account</h2>
-        <form action="/signin">
-          <label>your name </label>
-          <input type='text' placeholder='Majd Ahmad' id="Name" onChange={(e) => setname(e.target.value)} required />
-          <label>your Email address </label>
-          <div>
-            <input type='Email' placeholder='example@example.com' id="Email" onChange={(e) => setEmail(e.target.value)} required />
-          </div>
-          <label>your password </label>
-          <div>
-            <input type='password' placeholder='use a strong password' id="pass" onChange={(e) => setPassword(e.target.value)} required />
-          </div>
-          <label>Confirm password  </label>
-          <input type='password' placeholder='repeat password' onChange={validations} id="repass"  required />
-          <h6>{eror1}</h6>
-          <a href='/signin'><h5>Already have an account?</h5></a>
-          <button type="submit" id='visiblebtn' onClick={Signuphendler} >Sign Up</button>
-        </form>
-
-      </div>
-    </div>
-  )
-}
-
-export default SignUp*/
