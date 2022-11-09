@@ -1,6 +1,5 @@
 import React from "react"
 import Signup from "./component/SignUP&LogIn/Signup"
-import { Container } from "react-bootstrap"
 import { AuthProvider } from "./contexts/AuthContext"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Dashboard from "./component/Dashboard"
@@ -8,6 +7,7 @@ import Login from "./component/SignUP&LogIn/Login"
 import PrivateRoute from "./component/SignUP&LogIn/PrivateRoute"
 import ForgotPassword from "./component/SignUP&LogIn/ForgotPassword"
 import Firstpage from "./component/Firstpage"
+import PageNotFound from "./component/PageNotFound"
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 function App() {
@@ -20,6 +20,7 @@ function App() {
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
               <Route path="/forgot-password" component={ForgotPassword} />
+              <Route path='*' component={PageNotFound} />
             </Switch>
           </AuthProvider>
         </Router>

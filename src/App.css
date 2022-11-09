@@ -1195,3 +1195,10 @@ width: 100% !important;
 .tet{
   color: var(--primary-orang);
 }
+
+.pagenotfond{
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  
+}
