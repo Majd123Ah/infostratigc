@@ -1,14 +1,23 @@
 import React from "react";
-import Logo from "../Assest/logo1.png";
+import Logo from "../../Assest/logo1.png";
 import { useState, useEffect,  } from "react";
 import { MenuButtonWide } from 'react-bootstrap-icons';
 import { Link } from "react-scroll";
+import {  useHistory } from "react-router-dom"
 
 const Navbar = () => {
-  
  /* const [activeLink, setActiveLink] = useState('home');*/
   const [scrolled, seScrolled] = useState(false);
 
+  const history = useHistory()
+  
+  function signup (){
+    history.push("/signup")
+  }
+  function login (){
+    history.push("/login")
+  }
+  
   useEffect(() => {
     const onscroll = () => {
       if (window.scrollY > 6) {
@@ -47,8 +56,8 @@ const Navbar = () => {
              <Link className="nav-link" to="Footer" spy={true} smooth={true} offset={-350} duration={500} >About us</Link>
             </li>
           </ul>
-          <button className="mybtn" type="submit">LOGIN</button>
-          <button className="mybtn" type="submit">SIGNUP</button>
+          <button className="mybtn" onClick={login} >LOGIN</button>
+          <button className="mybtn" onClick={signup}>SIGNUP</button>
         </div>
       </div>
     </nav>

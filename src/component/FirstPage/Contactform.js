@@ -1,5 +1,5 @@
 import React from 'react'
-import contactimg from '../Assest/contact-us.png'
+import contactimg from '../../Assest/contact-us.png'
 
 const ContactForm = () => {
     const [formStatus, setFormStatus] = React.useState('Send')

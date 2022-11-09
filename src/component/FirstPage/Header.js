@@ -1,7 +1,14 @@
 import React from "react";
 import Typed from "react-typed";
+import {  useHistory } from "react-router-dom"
 
 const Header = () => {
+  const history = useHistory()
+  function getstarted (){
+    history.push("/login")
+  }
+
+
   return (
       <div className="Header-wraper " id="Header">
         <div className="main-info">
@@ -13,7 +20,7 @@ const Header = () => {
             backSpeed={60}
             loop
           />
-          <button className="getstarted">Get Started</button>
+          <button onClick={getstarted} className="getstarted">Get Started</button>
         </div>
       </div>
 

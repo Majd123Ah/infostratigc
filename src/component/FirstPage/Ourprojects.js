@@ -1,14 +1,14 @@
 import React from 'react'
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
-import project_image1 from '../Assest/project_image1.png';
-import project_image2 from '../Assest/project_image2.png';
-import project_image3 from '../Assest/project_image3.png';
-import project_image4 from '../Assest/project_image4.png';
-import phoneproj_imag1 from '../Assest/mobile_image1.png';
-import phoneproj_imag2 from '../Assest/mobile_image2.png';
-import phoneproj_imag3 from '../Assest/mobile_image3.png';
-import phoneproj_imag4 from '../Assest/mobile_image4.png';
+import project_image1 from '../../Assest/project_image1.png';
+import project_image2 from '../../Assest/project_image2.png';
+import project_image3 from '../../Assest/project_image3.png';
+import project_image4 from '../../Assest/project_image4.png';
+import phoneproj_imag1 from '../../Assest/mobile_image1.png';
+import phoneproj_imag2 from '../../Assest/mobile_image2.png';
+import phoneproj_imag3 from '../../Assest/mobile_image3.png';
+import phoneproj_imag4 from '../../Assest/mobile_image4.png';
  const Ourprojects = () => {
     const projectsweb = [
         {

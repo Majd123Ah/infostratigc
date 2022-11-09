@@ -2,11 +2,12 @@ import React from "react";
 import {Container, Col ,Row} from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import backcon from '../Assest/backcontimg.png';
-import imgwebdev from '../Assest/webdeve.png';
-import imdwebdisg from '../Assest/webdeisn.png';
-import imgmobile from '../Assest/mobiledeve.png';
-import database from '../Assest/database.png';
+import backcon from '../../Assest/backcontimg.png';
+import imgwebdev from '../../Assest/webdeve.png';
+import imdwebdisg from '../../Assest/webdeisn.png';
+import imgmobile from '../../Assest/mobiledeve.png';
+import database from '../../Assest/database.png';
+
 
 const Services = () => {
     const responsive = {
