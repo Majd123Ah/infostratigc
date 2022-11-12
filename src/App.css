@@ -187,6 +187,7 @@ nav ul li{
   }
   .project{
     padding: 0 !important;
+    
   }
   
   .just_image{
@@ -226,6 +227,7 @@ nav ul li{
     background: url(./Assest/backimage2.png) no-repeat;
     background-size: cover;
     background-position: center;  
+    
   }
   .main-info{
     position: absolute;
@@ -547,6 +549,8 @@ nav ul li{
   .image-left-contact{
     width: 100% !important;
     opacity: .8 !important;
+    max-width: 500px;
+    margin: auto;
   } 
   
   .CCntainer{
@@ -555,7 +559,8 @@ nav ul li{
     height: 600px !important;
     position: relative !important;
     padding: 10px !important;
-    
+    max-width: 3600px;
+    margin: auto;
   }
   
   .backround-contact-us{
@@ -567,7 +572,9 @@ nav ul li{
     align-items: center !important;
   }
   .just_image{
-    height:700px !important;
+    height:740px !important;
+    max-width: 3600px;
+    margin: auto;
   }
   .Header-wraper {
     position: relative;
@@ -578,6 +585,8 @@ nav ul li{
     background: url(./Assest/backimage2.png) no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 3600px;
+    margin: auto;
   }
   .main-info{
     position: absolute;
@@ -606,7 +615,7 @@ nav ul li{
   }
   .typed_style{
     display: block;
-    font-size: 4vw;
+    font-size: 60px;
     color: var(--primary-blue);
     text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
@@ -656,11 +665,11 @@ nav ul li{
 /******services***************/
 
 .service{
-  padding: 15% 5% 15% 5%;
+  padding: 150px 40px 150px 40px;
   position: relative;
   background-color:  rgba(36,35,35,1);
-
-
+  max-width: 3600px;
+  margin: auto;
   display: block;
 }
 .parent-items{
@@ -676,7 +685,6 @@ nav ul li{
 .parent-items h5{
  font-size: 45vw;
  font-weight: 700;
-
 }
 
 .parent-items p{
@@ -698,13 +706,18 @@ nav ul li{
   margin: 0 auto 15px auto;
 
 }
+
 .background-image-left{
   position: absolute;
   transform: rotate(180deg);
   top: 2rem;
   width: 80%;
   left: 0;
-  margin-left: 10%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 1100px;
 }
 
 .item img{
@@ -731,6 +744,8 @@ nav ul li{
   padding: 80px;
   position: relative;
   background-color: #151515;
+  max-width: 3600px;
+    margin: auto;
 }
 
 .project h2{
@@ -1000,11 +1015,12 @@ width: 100% !important;
 .emailuser{
   float: left;
   color: var(--primary-orang);
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 10px;
 }
 .navbar-dash button{
   float: right;
+
 }
 .DashHeaderd{
   width: 100%;

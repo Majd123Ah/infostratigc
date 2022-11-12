@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../Assest/logo1.png";
 import { useState, useEffect,  } from "react";
-import { MenuButtonWide } from 'react-bootstrap-icons';
+import { FaBars } from 'react-icons/fa';
 import { Link } from "react-scroll";
 import {  useHistory } from "react-router-dom"
 
@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className= 'container-fluid ' id={scrolled ?"scrolled_nav":"Defult_nav"}>
         <a className="navbar-brand" href="/"><img className="logo" alt="logo..." src={Logo} /></a>
         <button className="navbar-toggler" id="brdericon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <MenuButtonWide className="menuicon" size={20} />
+          <FaBars className="menuicon" size={20} />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">

@@ -166,7 +166,7 @@ import phoneproj_imag4 from '../../Assest/mobile_image4.png';
                     </Row>
                 </Container>
             </section>
-            <div className="just_image"></div>
+            
         </>
     )
 }

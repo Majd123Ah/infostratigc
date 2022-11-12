@@ -60,7 +60,7 @@ const Services = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left"  src={backcon} alt='image...'  />
+          <img className="background-image-left"  src={backcon} alt='image...'  />
         </section>
         
         </>
