@@ -170,432 +170,81 @@ nav ul li{
   position: relative;
   margin-top: 0;
 }
-@media screen and (min-width: 250px) {
-  .image-left-contact{
-    width: 100% !important;
-    opacity: .8 !important;
-  } 
-  .backround-contact-us{
-    height: 40vh !important;
-    width: 80% !important;
-    position: absolute;
-    top: 0;
-    align-items: center;
-    margin: 2rem !important;
-  }
-  .CCntainer{
-    position: relative !important;
-    height: 130vh !important;
-    background-color: #151515 !important;
-    
-  }
-  .behaind{
-    width: 80% !important;
-    align-items: center;
-    height: 80vh;
-    position: absolute;
-    bottom: 4rem;
-    margin: 2rem !important;
-  }
-  .just_image{
-    height:30vh !important;
-  }
-  .project{
-    padding: 0px !important;
-  }
-  .Conta-sm{
-    width: 100% !important;
-  }
-  .Nav-sm{
-    width: 20rem !important;
-   }
+@media screen and (min-width: 200px) and (max-width: 300px){
   .logo{
-    width: 12.25rem;
+    width: 10.25rem;
     transition: transform 1s ease-in-out;
     padding: 0.1875rem;
     border: 0.1875rem solid var(--primary-dark);
   
   }
-  .Header-wraper {
-    position: relative;
-    content: " ";
-    width: 100%; 
-    height: 60vh;
-    opacity: .9; 
-    background: url(./Assest/backimage2.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .main-info{
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 80%;
-    height: 20vh; 
-    display: block;
-    z-index: 1;
-    align-items: center;
-    margin:1rem 2rem 6rem 2rem;
-  }
-  .Headertext1{
-    color: var(--primary-orang);
-    margin: auto;
-    margin-bottom: 5rem;
-    text-align: center;
-    width: 75%;
-    font-size: 3.3vw;
-    font-weight: bold;
-    z-index: 1;
-    text-transform: uppercase;
-    text-shadow: 0.125rem 0.125rem #282c34;
-    display: block;
-    padding-left: 1rem;
-
-  }
-  .typed_style{
-    display: block;
-    font-size: 4vw;
-    color: var(--primary-blue);
-    text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
-    text-shadow: 1px 1px var(--secondy-blue);
-    font-weight: bold;
-    margin-bottom: 3rem;
-  }
-  #getstarted{
-    display: block;
-    background-color: var(--primary-blue);
-    border: none;
-    border-radius: 0.385rem;
-    font-size: 0.55rem;
-    padding: 0.55rem;
-    font-weight: 700;
-    width: 35%;
-    margin: auto;
-    z-index: 8;
-    box-shadow: 3px 5px;
-    color: #000;
-  
-  }
-  #getstarted:hover{
-    border: none;
-    border-radius: 0.385rem;
-    background-color: black;
-    color: var(--primary-blue);
-    font-weight: 500;
-    transition: 2s ease-in-out;
-  }
-  .mybtn{
-    background-color: var(--secondy-blue);
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
-    border: 0.184rem solid var(--primary-dark);
-    border-radius: 0.385rem;
-    font-size: 1.3rem;
-  }
-  .mybtn:hover{
-    color: var(--secondy-blue);
-    background-color: var(--primary-dark);
-    border: 0.184rem solid var(--secondy-blue);
-  
-  }
-}
-@media screen and (min-width: 400px) {
   .image-left-contact{
     width: 100% !important;
     opacity: .8 !important;
-  } 
-  .backround-contact-us{
-    height: 40vh !important;
-    width: 80% !important;
-    position: absolute;
-    top: 0;
-    align-items: center;
-    margin: 2rem !important;
   }
-  .CCntainer{
-    position: relative !important;
-    height: 130vh !important;
-    background-color: #151515 !important;
-    
-  }
-  .behaind{
-    width: 80% !important;
-    align-items: center;
-    height: 80vh;
-    position: absolute;
-    bottom: 1rem;
-    margin: 2rem !important;
-  }
-  .just_image{
-    height:30vh !important;
+  .parent-items p {
+    letter-spacing: 5px !important;
   }
   .project{
-    padding: 0px !important;
+    padding: 0 !important;
+  }
+  
+  .just_image{
+    height: 13.125rem !important;
   }
   .Conta-sm{
-    width: 100% !important;
+    width: 100%;
+    margin: 0 !important;
+    padding-bottom: 15px !important;
   }
-  .Nav-sm{
-    width: 20rem !important;
-   }
-  .Header-wraper {
-    position: relative;
-    content: " ";
-    width: 100%; 
-    height: 50vh;
-    opacity: .9; 
-    background: url(./Assest/backimage2.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .main-info{
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 80%;
-    height: 20vh; 
-    display: block;
-    z-index: 1;
-    align-items: center;
-    margin:1rem 2rem 6rem 2rem;
-    padding-left: 1rem;
-  }
-  .Headertext1{
-    color: var(--primary-orang);
-    margin: auto;
-    margin-bottom: 5.7rem;
-    text-align: center;
-    width: 75%;
-    font-size: 3.3vw;
-    font-weight: bold;
-    z-index: 1;
-    text-transform: uppercase;
-    text-shadow: 0.125rem 0.125rem #282c34;
-    display: block;
-
-  }
-  .typed_style{
-    display: block;
-    font-size: 4vw;
-    color: var(--primary-blue);
-    text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
-    text-shadow: 0.1rem 0.1rem var(--secondy-blue);
-    font-weight: bold;
-    margin-bottom: 3rem;
-  }
-  .getstarted{
-    display: block;
-    background-color: var(--primary-blue);
-    border: none;
-    border-radius: 0.385rem;
-    font-size: 0.72rem;
-    padding: 0.55rem;
-    font-weight: 900;
-    box-shadow: 2px 4px;
-    width: 25%;
-    margin: auto;
-    z-index: 8;
-  
-  }
-  .getstarted:hover{
-    border: none;
-    border-radius: 0.385rem;
-    background-color: black;
-    color: var(--primary-blue);
-    font-weight: 500;
-    transition: 2s ease-in-out;
-  }
-  .mybtn{
-    background-color: var(--secondy-blue);
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
-    border: 0.184rem solid var(--primary-dark);
-    border-radius: 0.385rem;
-    font-size: 1.3rem;
-  }
-  .mybtn:hover{
-    color: var(--secondy-blue);
-    background-color: var(--primary-dark);
-    border: 0.184rem solid var(--secondy-blue);
-  
-  }
-}
-@media screen and (min-width: 500px) {
-  .image-left-contact{
-    width: 100% !important;
-    opacity: .8 !important;
-  } 
-  .backround-contact-us{
-    height: 20vh !important;
-    width: 80% !important;
-    position: absolute;
-    top: 0;
-    align-items: center;
-    margin: 2rem !important;
-  }
-  .CCntainer{
-    position: relative !important;
-    height: 130vh !important;
-    background-color: #151515 !important;
-  }
-  .behaind{
-    width: 80% !important;
-    align-items: center;
-    height: 80vh;
-    position: absolute;
-    bottom: 1rem;
-    margin: 2rem !important;
-  }
-  .just_image{
-    height:40vh !important;
-  }
-  .Header-wraper {
-    position: relative;
-    content: " ";
-    width: 100%; 
-    height: 70vh;
-    opacity: .9; 
-    background: url(./Assest/backimage2.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .main-info{
-    position: absolute;
-    top: 8rem;
-    text-align: center;
-    width: 80%;
-    height: 20vh; 
-    display: block;
-    z-index: 1;
-    align-items: center;
-    margin:1rem 2rem 10rem 5rem;
-    padding-left: 2rem;
-  }
-  .Headertext1{
-    color: var(--primary-orang);
-    margin: auto;
-    margin-bottom: 5.7rem;
-    text-align: center;
-    width: 75%;
-    font-size: 3.7vw;
-    font-weight: bold;
-    z-index: 1;
-    text-transform: uppercase;
-    text-shadow: 0.125rem 0.125rem #282c34;
-    display: block;
-
-  }
-  .typed_style{
-    display: block;
-    font-size: 4vw;
-    color: var(--primary-blue);
-    text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
-    text-shadow: 0.1rem 0.1rem var(--secondy-blue);
-    font-weight: bold;
-    margin-bottom: 3rem;
-  }
-  .getstarted{
-    display: block;
-    background-color: var(--primary-blue);
-    border: none;
-    border-radius: 0.385rem;
-    font-size: 0.8rem;
-    padding: 0.55rem;
-    font-weight: 900;
-    box-shadow: 2px 4px;
-    width: 25%;
-    margin: auto;
-    z-index: 8;
-  
-  }
-  .getstarted:hover{
-    border: none;
-    border-radius: 0.385rem;
-    background-color: black;
-    color: var(--primary-blue);
-    font-weight: 500;
-    transition: 2s ease-in-out;
-  }
-  .mybtn{
-    background-color: var(--secondy-blue);
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
-    border: 0.184rem solid var(--primary-dark);
-    border-radius: 0.385rem;
-    font-size: 1.3rem;
-  }
-  .mybtn:hover{
-    color: var(--secondy-blue);
-    background-color: var(--primary-dark);
-    border: 0.184rem solid var(--secondy-blue);
-  
-  }
-}
-@media screen and (min-width: 600px) {
-  .behaind{
-    top: 0;
-    width: 40% !important;
-    position: absolute !important;
-    right: 0 !important;
-    margin-right: 10% !important;
-  }
-  .image-left-contact{
-    width: 100% !important;
-    opacity: .8 !important;
-  } 
-  
   .CCntainer{
     width: 100% !important;
     background-color: #151515 !important;
-    height: 110vh !important;
+    height: 950px !important;
     position: relative !important;
-    padding: 10px !important;
     
   }
   
   .backround-contact-us{
     position: absolute !important;
-    height: 100% !important;
-    width: 40% !important;
-    display: flex !important;
-    justify-items: center !important;
-    align-items: center !important;
+    width: 100% !important;
+    top: 0;
   }
-  .just_image{
-    height:60vh !important;
+  .behaind{
+    bottom:0;
+    width: 100% !important;
+    position: absolute !important;
+    padding: 25px;
   }
+  
   .Header-wraper {
     position: relative;
     content: " ";
     width: 100%; 
-    height: 100vh;
+    height: 600px;
     opacity: .9; 
     background: url(./Assest/backimage2.png) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center;  
   }
   .main-info{
     position: absolute;
-    top: 13rem;
     text-align: center;
-    width: 80%;
-    height: 20vh; 
+    width: 50%;
+    height: 500px; 
     display: block;
     z-index: 1;
     align-items: center;
-    margin:1rem 2rem 11rem 8rem;
-    padding-left: 2rem;
+    padding-top: 50PX;
+    padding-left: 15px;
   }
   .Headertext1{
     color: var(--primary-orang);
     margin: auto;
-    margin-bottom: 7rem;
+    margin-top: 9rem;
     text-align: center;
-    width: 75%;
-    font-size: 3.3vw;
+    width: 250PX;
+    font-size: 18PX;
     font-weight: bold;
     z-index: 1;
     text-transform: uppercase;
@@ -605,13 +254,14 @@ nav ul li{
   }
   .typed_style{
     display: block;
-    font-size: 4vw;
+    font-size: 18PX;
     color: var(--primary-blue);
     text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
     text-shadow: 0.1rem 0.1rem var(--secondy-blue);
     font-weight: bold;
-    margin-bottom: 3rem;
+    width: 250PX;
+    margin-top: 10rem;
   }
   .getstarted{
     display: block;
@@ -622,9 +272,10 @@ nav ul li{
     padding: 0.55rem;
     font-weight: 900;
     box-shadow: 3px 4px;
-    width: 25%;
+    width: 150PX;
     margin: auto;
     z-index: 8;
+    margin-top: 3rem;
   
   }
   .getstarted:hover{
@@ -650,7 +301,130 @@ nav ul li{
   
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  
+  
+  .image-left-contact{
+    width: 100% !important;
+    opacity: .8 !important;
+  } 
+  .project{
+    padding: 0 !important;
+  }
+  
+  .just_image{
+    height: 13.125rem !important;
+  }
+  .Conta-sm{
+    width: 100%;
+    margin: 0 !important;
+    padding-bottom: 15px !important;
+  }
+  .CCntainer{
+    width: 100% !important;
+    background-color: #151515 !important;
+    height: 950px !important;
+    position: relative !important;
+    
+  }
+  
+  .backround-contact-us{
+    position: absolute !important;
+    width: 100% !important;
+    top: 0;
+  }
+  .behaind{
+    bottom:0;
+    width: 100% !important;
+    position: absolute !important;
+    padding: 25px;
+  }
+  
+  .Header-wraper {
+    position: relative;
+    content: " ";
+    width: 100%; 
+    height: 600px;
+    opacity: .9; 
+    background: url(./Assest/backimage2.png) no-repeat;
+    background-size: cover;
+    background-position: center;  
+  }
+  .main-info{
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 500px; 
+    display: block;
+    z-index: 1;
+    align-items: center;
+    margin:5rem 1rem 11rem 2rem;
+    padding-top: 50PX;
+  }
+  .Headertext1{
+    color: var(--primary-orang);
+    margin: auto;
+    margin-top: 5rem;
+    text-align: center;
+    width: 300PX;
+    font-size: 20PX;
+    font-weight: bold;
+    z-index: 1;
+    text-transform: uppercase;
+    text-shadow: 0.125rem 0.125rem #282c34;
+    display: block;
+
+  }
+  .typed_style{
+    display: block;
+    font-size: 25PX;
+    color: var(--primary-blue);
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    text-shadow: 0.1rem 0.1rem var(--secondy-blue);
+    font-weight: bold;
+    width: 320PX;
+    margin-top: 9rem;
+  }
+  .getstarted{
+    display: block;
+    background-color: var(--primary-blue);
+    border: none;
+    border-radius: 0.385rem;
+    font-size: 1.2rem;
+    padding: 0.55rem;
+    font-weight: 900;
+    box-shadow: 3px 4px;
+    width: 150PX;
+    margin: auto;
+    z-index: 8;
+    margin-top: 4rem;
+  
+  }
+  .getstarted:hover{
+    border: none;
+    border-radius: 0.385rem;
+    background-color: black;
+    color: var(--primary-blue);
+    font-weight: 500;
+    transition: 2s ease-in-out;
+  }
+  .mybtn{
+    background-color: var(--secondy-blue);
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    border: 0.184rem solid var(--primary-dark);
+    border-radius: 0.385rem;
+    font-size: 1.3rem;
+  }
+  .mybtn:hover{
+    color: var(--secondy-blue);
+    background-color: var(--primary-dark);
+    border: 0.184rem solid var(--secondy-blue);
+  
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   .behaind{
     width: 40% !important;
     position: absolute !important;
@@ -665,7 +439,7 @@ nav ul li{
   .CCntainer{
     width: 100% !important;
     background-color: #151515 !important;
-    height: 110vh !important;
+    height: 700px !important;
     position: relative !important;
     padding: 10px !important;
     
@@ -680,13 +454,13 @@ nav ul li{
     align-items: center !important;
   }
   .just_image{
-    height:80vh !important;
+    height: 450px !important;
   }
   .Header-wraper {
     position: relative;
     content: " ";
     width: 100%; 
-    height: 130vh;
+    height: 900px;
     opacity: .9; 
     background: url(./Assest/backimage2.png) no-repeat;
     background-size: cover;
@@ -694,39 +468,36 @@ nav ul li{
   }
   .main-info{
     position: absolute;
-    top:23rem;
-    text-align: center;
+    top: 350px;
     width: 80%;
-    height: 25vh; 
+    height: 700px;
     display: block;
     z-index: 1;
-    align-items: center;
-    margin:1rem 2rem 6rem 8rem;
-    padding-left: 5rem;
+    margin-left: 7rem;
+    padding-left: 3rem;
   }
   .Headertext1{
     color: var(--primary-orang);
     margin: auto;
-    margin-bottom: 7rem;
-    text-align: center;
-    width: 75%;
-    font-size: 3.3vw;
+    width: 550px;
+    font-size: 35px;
     font-weight: bold;
     z-index: 1;
     text-transform: uppercase;
     text-shadow: 0.125rem 0.125rem #282c34;
     display: block;
-
+    padding-left: 50px;
   }
   .typed_style{
     display: block;
-    font-size: 4vw;
+    font-size: 40px;
     color: var(--primary-blue);
     text-transform: uppercase;
     font-family: 'Barlow', sans-serif;
     text-shadow: 0.125rem 0.125rem var(--secondy-blue);
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-top: 10rem;
+    padding-left: 50px;
   }
   .getstarted{
     display: block;
@@ -740,6 +511,7 @@ nav ul li{
     width: 25%;
     margin: auto;
     z-index: 8;
+    margin-top: 5rem;
   
   }
   .getstarted:hover{
@@ -780,7 +552,7 @@ nav ul li{
   .CCntainer{
     width: 100% !important;
     background-color: #151515 !important;
-    height: 110vh !important;
+    height: 600px !important;
     position: relative !important;
     padding: 10px !important;
     
@@ -795,13 +567,13 @@ nav ul li{
     align-items: center !important;
   }
   .just_image{
-    height:100vh !important;
+    height:700px !important;
   }
   .Header-wraper {
     position: relative;
     content: " ";
     width: 100%; 
-    height: 150vh;
+    height: 900px;
     opacity: .9; 
     background: url(./Assest/backimage2.png) no-repeat;
     background-size: cover;
@@ -812,24 +584,24 @@ nav ul li{
     top:20rem;
     text-align: center;
     width: 80%;
-    height: 50vh; 
+    height: 500px; 
     display: block;
     z-index: 1;
     align-items: center;
-    padding-left: 18vw;
+    right: 0;
   }
   .Headertext1{
     color: var(--primary-orang);
     margin: auto;
-    margin-bottom: 12rem;
     text-align: center;
     width: 75%;
-    font-size: 3.3vw;
+    font-size: 42px;
     font-weight: bold;
     z-index: 1;
     text-transform: uppercase;
     text-shadow: 0.125rem 0.125rem #282c34;
     display: block;
+    padding-left: 35px;
 
   }
   .typed_style{
@@ -840,7 +612,7 @@ nav ul li{
     font-family: 'Barlow', sans-serif;
     text-shadow: 0.125rem 0.125rem var(--secondy-blue);
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-top: 10.5rem;
   }
   .getstarted{
     display: block;
@@ -854,6 +626,7 @@ nav ul li{
     width: 25%;
     margin: auto;
     z-index: 8;
+    margin-top: 5rem;
   
   }
   .getstarted:hover{
@@ -1207,9 +980,150 @@ width: 100% !important;
 }
 #passwordvisi{
   color: #2d8c29;
-  font-size: 12px;
+  font-size: 10px;
   width: 35px;
   right: 35px;
   position: absolute;
   top: 36px;
+}
+
+/**************** DAshboard**********************/
+.navbar-dash{
+  width: 100%;
+  background-color: #151515;
+  height: 5rem;
+  position: fixed;
+  padding-top: 20px;
+  z-index: 55;
+}
+
+.emailuser{
+  float: left;
+  color: var(--primary-orang);
+  font-size: 20px;
+  margin-left: 10px;
+}
+.navbar-dash button{
+  float: right;
+}
+.DashHeaderd{
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+}
+.outerorr{
+  width: 100%;
+  font-size: larger;
+  position: absolute;
+  bottom:0 ;
+  margin: auto;
+  color: var(--primary-red);
+}
+
+/***********dashboardBody*************/
+.Dashbody{
+  height: 150vh;
+  background-color: #151515;
+ 
+ 
+}
+.conta{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  box-shadow:0 4px 10px rgba(1, 181, 252, 0.373); 
+  background-color: #fff;
+}
+.webheader{
+  width: 100%;
+  background-color: #b8b8b8;
+  height: 75px;
+  position: relative;
+}
+
+.webtitle{
+  width: 20%;
+  height: 35px;
+  background-color: #fff;
+  margin-left: 5px;
+  border-radius: 5px 5px 0 0 ;
+  margin-top: 1px;
+  display: inline-block;
+  min-width: 150px;
+}
+
+.webtitle img{
+  width: 20px;
+  margin-left: 10px;
+  margin-top: 1px;
+}
+.webtitle label{
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 50%;
+  font-size: 1.2vw;
+}
+.iconremove{
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+}
+.iconplus{
+  margin-left: 10px;
+  
+}
+.urltab{
+  width: 100%;
+  background-color: #fff;
+  height: 40px;
+  border-bottom: 1px solid rgb(71, 71, 71);
+  position: absolute;
+
+ 
+
+}
+.iconss{
+  color: rgb(80, 80, 80);
+  margin: 10px;
+}
+.iconss:hover{
+  border-radius: 20px;
+  background-color: #282c34;
+  
+  padding: 1px;
+
+}
+.wwww{
+  width:60%;
+  height: 30px;
+  background-color: rgb(226, 226, 226);
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left:110px;
+  border-radius: 20px;
+  margin-top: 4px;
+
+}
+.iconsgroup{
+  width: 10%;
+  height: 40px;
+  min-width: 110px;
+}
+.wwww label{
+  font-size: 1.2vw;
+}
+.Dashbodycontext{
+  background-color: #2d8c29;
+  height: 79vh;
+  width: 100%;
+}
+
+.toolsconta{
+  height: 12rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  border: 1px solid var(--secondy-blue);
 }
